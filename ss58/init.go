@@ -70,7 +70,7 @@ var Prefixes = map[string][]byte{
 	"MathTestPrefix":    {0x28},
 	"SubstratePrefix":   {0x2a},
 	"ChainXPrefix":      {0x2c},
-	//"SubGamePrefix":     {0x1b},
+	"SubGamePrefix":     {0x1b},
 
 	//testnet for pcx
 	"ChainXTestNetPrefix": {0x2a},

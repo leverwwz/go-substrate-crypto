@@ -15,7 +15,7 @@ func Test_CreateAddress(t *testing.T) {
 	pubBytes, _ := hex.DecodeString(pub)
 	fmt.Println(pubBytes)
 	//pubBytes = append([]byte{0xff},pubBytes...)
-	address, err := ss58.Encode(pubBytes, ss58.Prefixes["SubGamePrefix"])
+	address, err := ss58.Encode(pubBytes, ss58.SubGamePrefix)
 	if err != nil {
 		t.Fatal(err)
 	}
